@@ -7,7 +7,7 @@
 module.exports = {
   siteName: '南了个难难难',
   siteDescription:"南了个难难难",
-  pathPrefix:"/my-app",
+  pathPrefix:"/",
   // port:8080,
 
   //* 使用@gridsome/source-filesystem将文件读取到 GraphQL 中，以供模板使用
