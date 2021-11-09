@@ -2,6 +2,7 @@
   <Layout>
     <!-- Page Header-->
     <header class="masthead"
+
             :style="{
               backgroundImage:`url(http://113.31.154.207:1337${$page.home.edges[0].node.cover.url})`
             }">
