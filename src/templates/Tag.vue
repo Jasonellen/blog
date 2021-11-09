@@ -3,7 +3,7 @@
     <!-- Page Header-->
     <header class="masthead"
             :style="{
-              backgroundImage:`url(${$page.home.edges[0].node.cover.url})`
+              backgroundImage:`url(http://113.31.154.207:1337${$page.home.edges[0].node.cover.url})`
             }">
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">

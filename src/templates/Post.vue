@@ -4,7 +4,7 @@
     <!-- Page Header-->
     <header class="masthead"
             :style="{
-              backgroundImage:`url(${$page.detail.cover.url})`
+              backgroundImage:`url(htp://113.31.154.207:1337${$page.detail.cover.url})`
             }"
     >
       <div class="container position-relative px-4 px-lg-5">
