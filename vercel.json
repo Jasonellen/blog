@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/uploads/:match*",
+      "destination": "http://113.31.154.207:1337/uploads/:match*"
+    },
+    {
+      "source": "/contacts",
+      "destination": "http://113.31.154.207:1337/contacts"
+    }
+  ]
+}

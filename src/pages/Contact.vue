@@ -96,7 +96,7 @@ export default {
   methods:{
     submit(){
       console.log(this.$data)
-      axios.post('http://113.31.154.207:1337/contacts',{
+      axios.post('/contacts',{
         ...this.$data
       })
       .then(data=>{
